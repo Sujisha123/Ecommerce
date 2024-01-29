@@ -50,33 +50,40 @@ This Django-based eCommerce project provides a robust platform for online retail
 
 Ensure you have Python and Django installed before proceeding.
 
-```bash
+
 # Clone the repository
+
+```bash
 git clone https://github.com/Sujisha123/Ecommerce
 
 # Navigate to the project directory
+
+```bash
 cd django-ecommerce-project
 
 # Install dependencies
+```bash
 pip install -r requirements.txt
 
 # Run migrations
+```bash
 python manage.py migrate
 
 # Start the development server
+```bash
 python manage.py runserver
 
-##Usage
+## Usage
 
 Create a superuser account to access the Django admin panel.
 
 ```bash
+python manage.py createsuperuser
 
-1. python manage.py createsuperuser
-2. Populate the database with products and collections through the admin panel.
-3.Start the development server and explore the eCommerce platform.
+
+Populate the database with products and collections through the admin panel.
+the development server and explore the eCommerce platform.
 
 ```bash
-
 python manage.py runserver
 
