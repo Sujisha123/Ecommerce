@@ -51,7 +51,7 @@ This Django-based eCommerce project provides a robust platform for online retail
 Ensure you have Python and Django installed before proceeding.
 
 
-# Clone the repository
+## Clone the repository
 
 ```bash
 git clone https://github.com/Sujisha123/Ecommerce
